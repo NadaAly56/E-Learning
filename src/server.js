@@ -17,9 +17,9 @@ const Database = process.env.DATABASE_Connection;
     .then(console.log('DB connection successful!'));
 
   // Start the server
-  app.listen(process.env.PORT ||port, () => {
+  app.listen( 5014, () => {
     console.log(
-      `Server listening on port ${port} in the ${process.env.NODE_ENV} mode`);
+      `Server listening on port 5014 in the ${process.env.NODE_ENV} mode`);
   });
   
 })();
